@@ -347,12 +347,12 @@ header {
 
 .carousel {
   height: 100vh;
-  padding-left: 12em;
+  padding-left: 5em;
 }
 
 .overlay-lf {
-  background: red;
-  opacity: 0.5;
+  background: transparent;
+  
   float: left; 
   width: 50%;
   height: 100%;
@@ -362,8 +362,8 @@ header {
 }
 
 .overlay-rg {
-  background: blue;
-  opacity: 0.5;
+  background: transparent;
+  
   float: right; 
   width: 50%;
   height: 100%;
@@ -402,17 +402,17 @@ header {
   margin-left: 1500px;
 }
 
-.overlay-lf:hover + .prev-txt {
+.hov:hover + .prev-txt {
   display: block;
 }
 
-.overlay-rg:hover + .next-txt {
+.hov2:hover + .next-txt {
   display: block;
 }
 
 #gallery-cell-1 {
   background-image: url("../img/c1.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -422,7 +422,7 @@ header {
 
 #gallery-cell-2 {
   background-image: url("../img/c2.jpeg"); 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -432,7 +432,7 @@ header {
 
 #gallery-cell-3 {
   background-image: url("../img/c3.jpeg"); 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -442,7 +442,7 @@ header {
 
 #gallery-cell-4 {
   background-image: url("../img/c4.jpeg"); 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -452,7 +452,7 @@ header {
 
 #gallery-cell-5 {
   background-image: url("../img/c5.jpeg"); 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -473,7 +473,8 @@ header {
 .about-gallery {
   height: 40vh;
   padding-top: 100px;
-  padding-left: 12em;
+  padding-left: 5em;
+  z-index: 5;
 }
 
 .caption {
@@ -732,78 +733,13 @@ footer .footer-links {
 -----------------------------------------*/
 
 @media screen and (max-width: 2450px) {
-
-  #gallery-cell-1 {
-    width: 95%;
-    height: 1122px;
-  }
+  
 
 }
 
-@media screen and (max-width: 2170px) {
+@media screen and (max-width: 2200px) {
 
-  #gallery-cell-1 {
-    width: 90%;
-    height: 922px;
-  }
-
-}
-
-@media screen and (max-width: 1930px) {
-
-  #gallery-cell-1 {
-    width: 85%;
-    height: 822px;
-  }
-
-}
-
-@media screen and (max-width: 1830px) {
-
-  #gallery-cell-1 {
-    width: 80%;
-    height: 722px;
-  }
-
-  .carousel {
-    padding-left: 16em;
-  }
-
-}
-
-@media screen and (max-width: 1730px) {
-
-  #gallery-cell-1 {
-    width: 75%;
-    height: 622px;
-  }
-
-}
-
-@media screen and (max-width: 1630px) {
-
-  #gallery-cell-1 {
-    width: 70%;
-    height: 522px;
-  }
-
-}
-
-@media screen and (max-width: 1530px) {
-
-  #gallery-cell-1 {
-    width: 65%;
-    height: 422px;
-  }
-
-}
-
-@media screen and (max-width: 1430px) {
-
-  #gallery-cell-1 {
-    width: 60%;
-    height: 322px;
-  }
+  
 
 }
 
