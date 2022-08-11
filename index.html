@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <title>TXO</title>
+
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">    
+
+        <!-- CSS files -->    
+        <link href="css/main.css" rel="stylesheet">
+
+        <!-- External JS scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+    
+    <body>
+        
+            <section class="navbar sticky" id="nav">
+
+                <header>
+                    <div class="scrollTriggerLogo"></div>
+
+                    <div class="snd">
+                        
+                        <div class="norm-nav">
+
+                            <ul>
+                                <li>
+                                    <h5 class="nav-title">Enquiries</h5>
+                                    <h5>General</h5>
+                                    <h5>+44 (0) 020 3613 4733</h5>
+                                    <h5><a href="#">info@txowork.com</a></h5>
+                                </li>
+                                <li>
+                                    <div class="nav-title-pad"></div>
+                                    <h5>Sales</h5>
+                                    <h5>+44 (0) 020 3613 4733</h5>
+                                    <h5><a href="#">info@txowork.com</a></h5>
+                                </li>
+                                <li>
+                                    <h5 class="nav-title">Address</h5>
+                                    <h5>Morelands</h5>
+                                    <h5>5-23 Old Street</h5>
+                                    <h5>London ECTV 9HL</h5>
+                                </li>
+                                <li>
+                                    <h5 class="nav-title">Connect</h5>
+                                    <h5>Instagram</h5>
+                                    <h5>LinkedIn</h5>
+                                    <h5>Facebook</h5>
+                                </li>
+                            <ul>
+
+                        </div>
+
+                        <div class="mob-nav">
+
+                            <div class="menu-icon" onclick="openNav()">
+                              <div class="bar1"></div>
+                              <div class="bar2"></div>
+                              <div class="bar3"></div>
+                            </div>
+
+                            <div id="myNav" class="overlay-nav">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                              <div class="overlay-content">
+                                <ul id="wid-mod">
+                                    <li id="enquiries">
+                                        <h5 class="nav-title">Enquiries</h5>
+                                        <h5>General</h5>
+                                        <h5>+44 (0) 020 3613 4733</h5>
+                                        <h5><a href="#">info@txowork.com</a></h5>
+                                    </li>
+                                    <li class="border-nav">
+                                        <div class="nav-title-pad"></div>
+                                        <h5>Sales</h5>
+                                        <h5>+44 (0) 020 3613 4733</h5>
+                                        <h5><a href="#">info@txowork.com</a></h5>
+                                    </li>
+                                    <li class="border-nav">
+                                        <h5 class="nav-title">Address</h5>
+                                        <h5>Morelands</h5>
+                                        <h5>5-23 Old Street</h5>
+                                        <h5>London ECTV 9HL</h5>
+                                    </li>
+                                    <li class="border-nav">
+                                        <h5 class="nav-title">Connect</h5>
+                                        <h5>Instagram</h5>
+                                        <h5>LinkedIn</h5>
+                                        <h5>Facebook</h5>
+                                    </li>
+                                <ul>
+                              </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </header>
+
+            </section>
+
+
+            <section class="main-logo">
+
+                <div class="fst">
+
+                    <h3 class="logo">TX&#xb0;</h3>
+
+                </div>
+
+            </section>
+
+
+            <section class="hero" id="hero">
+                <div class="scrollTriggerHero"></div>
+
+                <h1>We're hands-on and
+                    <br>committed to evolving your
+                    <br>business to strive for better.</h1>
+
+            </section>
+
+            <section class="sub-hero">
+
+                <div class="stay-updated">
+                    <h4 class="form-title">STAY UPDATED</h4>
+                </div>
+
+                <div class="grid-cell gs-half">
+
+                    <h5 class="hero-title">OUR OFFERING</h5>
+                    <h2>We provide physical, pragmatic and personal business guidance. Success is never static.
+                        Neither are we. We'll be your business partners for positive change.</h2>
+
+                </div>
+
+            </section> 
+
+            <section class="carousel">
+
+                    <div class="mySlides slide fade" id="gallery-cell-1">
+                        
+                        <span id="prev1">
+                            <div class="overlay-lf" onclick="plusSlides(-1)"></div>
+                        </span>
+                        <div class="prev-txt"><span class="prev">Previous</span></div>
+                        
+                        <span id="next1">
+                            <div class="overlay-rg" onclick="plusSlides(1)"></div>
+                        </span>
+                        <div class="next-txt"><span class="next">Next</span></div>
+
+                    </div>
+
+                    <div class="mySlides slide fade" id="gallery-cell-2">
+                        
+                        <span id="prev2">
+                            <div class="overlay-lf" onclick="plusSlides(-1)"></div>
+                        </span>
+                        <div class="prev-txt"><span class="prev">Previous</span></div>
+                        
+                        <span id="next2">
+                            <div class="overlay-rg" onclick="plusSlides(1)"></div>
+                        </span>
+                        <div class="next-txt"><span class="next">Next</span></div>
+
+                    </div>
+
+                    <div class="mySlides slide fade" id="gallery-cell-3">
+                        
+                        <span id="prev3">
+                            <div class="overlay-lf" onclick="plusSlides(-1)"></div>
+                        </span>
+                        <div class="prev-txt"><span class="prev">Previous</span></div>
+
+                        <span id="next3">
+                            <div class="overlay-rg" onclick="plusSlides(1)"></div>
+                        </span>
+                        <div class="next-txt"><span class="next">Next</span></div>
+
+                    </div>
+
+                    <div class="mySlides slide fade" id="gallery-cell-4">
+
+                        <span id="prev4">
+                            <div class="overlay-lf" onclick="plusSlides(-1)"></div>
+                        </span>
+                        <div class="prev-txt"><span class="prev">Previous</span></div>
+
+                        <span id="next4">
+                            <div class="overlay-rg" onclick="plusSlides(1)"></div>
+                        </span>
+                        <div class="next-txt"><span class="next">Next</span></div>
+
+                    </div>
+
+                    <div class="mySlides slide fade" id="gallery-cell-5">
+                        
+                        <span id="prev5">
+                            <div class="overlay-lf" onclick="plusSlides(-1)"></div>
+                        </span>
+                        <div class="prev-txt"><span class="prev">Previous</span></div>
+                        
+                        <span id="next5">
+                            <div class="overlay-rg" onclick="plusSlides(1)"></div>
+                        </span>
+                        <div class="next-txt"><span class="next">Next</span></div>
+
+                    </div>
+
+            </section>
+
+            <section class="about-gallery">
+                
+                    <div class="caption" id="caption">
+
+                        <div class="grid-cell gs-half">
+                        
+                            <h2>Availability: <span id="availability-txt"></span></h2>
+
+                        </div>
+
+                        <div class="grid-cell gs-half2">
+
+                            <h2>Name: <span id="name-txt"></span></h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="caption-full" id="caption_full" style="display:none;">
+
+                        <div class="grid-cell gs-half">
+
+                            <div class="borderline">
+
+                                <h2>Availability: <span id="availability-txt-full"></span></h2>
+
+                            </div>
+
+                            <div class="cn">
+
+                                <div class="borderline">
+
+                                    <h2 class="expandable">Size: <span id="size-txt-full"></span></h2>
+
+                                </div>
+
+                                <div class="borderline">
+
+                                    <h2 class="expandable"><span id="info-txt-full"></span></h2>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="grid-cell gs-half2">
+
+                            <div class="borderline">
+
+                                <h2>Name: <span id="name-txt-full"></span></h2>
+
+                            </div>
+
+                            <div class="cn">
+
+                                <div class="borderline">
+
+                                    <h2 class="expandable">Location: <span id="location-txt-full"></span></h2>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="op-cl-captions">
+                        
+                        <button type="button" id="show_txt" class="no-outline"><h2 class="caption-input">Read More</h2></button>
+                        <button type="button" style="display: none;" id="hide_txt" class="no-outline"><h2 class="caption-input">Hide Text</h2></button>
+
+                    </div>
+
+            </section>
+
+            <div id="spacer"></div>
+
+            <section class="newsletter">
+
+                <h4 class="form-title">STAY UPDATED</h4>
+
+                <form action="#">
+
+                    <h1>Newsletter</h1>
+
+                    <input type="text" class="no-outline form-inputs" placeholder="Full Name">
+                    <input type="text" class="no-outline form-inputs" placeholder="Company Name">
+                    <input type="text" class="no-outline form-inputs" placeholder="Email Address">
+
+                    <h4 class="form-submit"><a class="submit-btn" href="#">Submit</a></h4>
+
+                </form>
+
+            </section>
+
+            <footer>
+                
+                    <div class="footer-logo">
+
+                        <img class="" src="img/thirdway.png">
+
+                    </div>
+
+                    <div class="footer-links">
+                        
+                        <ul>
+                            <li>
+                                <h5><a href="#">Terms and Conditions</a></h5>
+                            </li>
+                            <li>
+                                <h5><a href="#">Privacy Policy</a></h5>
+                            </li>
+                            <li>
+                                <h5><a href="#">Cookie Policy</a></h5>
+                            </li>
+                            <li>
+                                <h5><a href="#">Accessibility</a></h5>
+                            </li>
+                        <ul>
+
+                    </div>
+
+            </footer>
+
+        <!-- JS File -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
