@@ -412,7 +412,7 @@ header {
 
 #gallery-cell-1 {
   background-image: url("../img/c1.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -422,7 +422,7 @@ header {
 
 #gallery-cell-2 {
   background-image: url("../img/c2.jpeg"); 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -432,7 +432,7 @@ header {
 
 #gallery-cell-3 {
   background-image: url("../img/c3.jpeg"); 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -442,7 +442,7 @@ header {
 
 #gallery-cell-4 {
   background-image: url("../img/c4.jpeg"); 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -452,7 +452,7 @@ header {
 
 #gallery-cell-5 {
   background-image: url("../img/c5.jpeg"); 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   
   width: 100%;
@@ -474,7 +474,6 @@ header {
   height: 40vh;
   padding-top: 100px;
   padding-left: 5em;
-  z-index: 5;
 }
 
 .caption {
@@ -732,17 +731,6 @@ footer .footer-links {
   RESPONSIVE STYLING              
 -----------------------------------------*/
 
-@media screen and (max-width: 2450px) {
-  
-
-}
-
-@media screen and (max-width: 2200px) {
-
-  
-
-}
-
 @media screen and (max-width: 1800px) {
 
   .norm-nav {
@@ -821,7 +809,13 @@ footer .footer-links {
   }
 }
 
+@media screen and (max-width: 1130px) {
+  
+  #spacer {
+    padding-top: 80px;
+  }
 
+}
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -982,12 +976,20 @@ footer .footer-links {
     line-height: 60px;
   }
 
+  h2 {
+    font-size: 22px;
+  }
+
   .sub-hero {
     padding-top: 200px;
   }
 
   .form-inputs {
-    font-size: 5px;
+    font-size: 50px;
+  }
+
+  #spacer {
+    padding-top: 120px;
   }
 
 }
