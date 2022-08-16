@@ -253,8 +253,8 @@
 	                  trigger: '.scrollTriggerLogo',
 	                  start: 'top+=200 top+=90',
 	                  end: '+=700',
-	                  scrub: true,
-	                  markers: true
+	                  scrub: true
+	                  //markers: true
 	                } 
 	            });
 
