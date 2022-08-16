@@ -10,7 +10,9 @@
         <meta name="description" content="">
         <meta name="author" content="">    
 
-        <!-- CSS files -->    
+        <!-- CSS files -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
         <link href="css/main.css" rel="stylesheet">
 
         <!-- External JS scripts -->
@@ -27,7 +29,10 @@
     </head>
     
     <body>
-        
+
+        <div>
+            
+        </div>
             <section class="navbar sticky" id="nav">
 
                 <header>
@@ -66,14 +71,20 @@
 
                         </div>
 
-                        <div class="mob-nav">
+                    </div>
 
-                            <div class="menu-icon" onclick="openNav()">
-                              <div class="bar1"></div>
-                              <div class="bar2"></div>
-                              <div class="bar3"></div>
+                    <div class="mob-nav">
+                        <div class="container-fluid">
+                            <div class="d-flex justify-content-between">
+                                <div></div>
+        
+                                <div class="menu-icon" onclick="openNav()">
+                                  <div class="bar1"></div>
+                                  <div class="bar2"></div>
+                                  <div class="bar3"></div>
+                                </div>
                             </div>
-
+            
                             <div id="myNav" class="overlay-nav">
                               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                               <div class="overlay-content">
@@ -105,11 +116,8 @@
                                 <ul>
                               </div>
                             </div>
-
                         </div>
-
                     </div>
-
                 </header>
 
             </section>
@@ -127,32 +135,35 @@
 
 
             <section class="hero" id="hero">
-                <div class="scrollTriggerHero"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="scrollTriggerHero"></div>
 
-                <h1>We're hands-on and
-                    <br>committed to evolving your
-                    <br>business to strive for better.</h1>
+                            <h1>We're hands-on and
+                            <br>committed to evolving your
+                            <br>business to strive for better.</h1>
+                        </div>
 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 ms-auto">
+                            <div class="stay-updated">
+                                <h4 class="form-title">STAY UPDATED</h4>
+                            </div>
+            
+                            <div class="">
+            
+                                <h5 class="hero-title">OUR OFFERING</h5>
+                                <h2>We provide physical, pragmatic and personal business guidance. Success is never static.
+                                    Neither are we. We'll be your business partners for positive change.</h2>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="sub-hero">
-
-                <div class="stay-updated">
-                    <h4 class="form-title">STAY UPDATED</h4>
-                </div>
-
-                <div class="grid-cell gs-half">
-
-                    <h5 class="hero-title">OUR OFFERING</h5>
-                    <h2>We provide physical, pragmatic and personal business guidance. Success is never static.
-                        Neither are we. We'll be your business partners for positive change.</h2>
-
-                </div>
-
-            </section> 
-
             <section class="carousel">
-
+                <div class="container-fluid">
                     <div class="mySlides slide fade" id="gallery-cell-1">
                         
                         <span class="hov" id="prev1">
@@ -222,25 +233,19 @@
                         <div class="next-txt"><span class="next">Next</span></div>
 
                     </div>
-
+                </div>
             </section>
 
             <section class="about-gallery">
-                
+                <div class="container-fluid">
                     <div class="caption" id="caption">
-
-                        <div class="grid-cell gs-half">
-                        
+                        <div class="">
                             <h2>Availability: <span id="availability-txt"></span></h2>
-
                         </div>
 
-                        <div class="grid-cell gs-half2">
-
+                        <div class="">
                             <h2>Name: <span id="name-txt"></span></h2>
-
                         </div>
-
                     </div>
 
                     <div class="caption-full" id="caption_full" style="display:none;">
@@ -299,18 +304,18 @@
                         <button type="button" style="display: none;" id="hide_txt" class="no-outline"><h2 class="caption-input">Hide Text</h2></button>
 
                     </div>
-
+                </div>
             </section>
 
             <div id="spacer"></div>
 
             <section class="newsletter">
-
-                <h4 class="form-title">STAY UPDATED</h4>
+                <div class="container-fluid">
+                    <h4 class="form-title">STAY UPDATED</h4>
 
                 <form action="#">
 
-                    <h1>Newsletter</h1>
+                    <h1 class="newsletter_heading">Newsletter</h1>
 
                     <input type="text" class="no-outline form-inputs" placeholder="Full Name">
                     <input type="text" class="no-outline form-inputs" placeholder="Company Name">
@@ -319,40 +324,49 @@
                     <h4 class="form-submit"><a class="submit-btn" href="#">Submit</a></h4>
 
                 </form>
-
+                </div>
             </section>
 
             <footer>
-                
-                    <div class="footer-logo">
-
-                        <img class="" src="img/thirdway.png">
-
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="footer-wrap">
+                            <div class="footer-logo">
+                                <img class="" src="img/thirdway.png">    
+                            </div>
+                            <div class="footer-links">                           
+                                <ul>
+                                    <li>
+                                        <h5><a href="#">Terms and Conditions</a></h5>
+                                    </li>
+                                    <li>
+                                        <h5><a href="#">Privacy Policy</a></h5>
+                                    </li>
+                                    <li>
+                                        <h5><a href="#">Cookie Policy</a></h5>
+                                    </li>
+                                    <li>
+                                        <h5><a href="#">Accessibility</a></h5>
+                                    </li>
+                                <ul>   
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="footer-links">
-                        
-                        <ul>
-                            <li>
-                                <h5><a href="#">Terms and Conditions</a></h5>
-                            </li>
-                            <li>
-                                <h5><a href="#">Privacy Policy</a></h5>
-                            </li>
-                            <li>
-                                <h5><a href="#">Cookie Policy</a></h5>
-                            </li>
-                            <li>
-                                <h5><a href="#">Accessibility</a></h5>
-                            </li>
-                        <ul>
-
-                    </div>
-
+                </div>
             </footer>
 
         <!-- JS File -->
         <script src="js/main.js"></script>
+
+        <script>
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                $('.fst').addClass('newClass');
+                } else {
+                $('.fst').removeClass('newClass');
+                }
+            });
+        </script>
 
     </body>
 </html>

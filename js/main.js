@@ -195,8 +195,8 @@
 	                document.getElementById("caption_full").style.display = 'none';
 	                document.getElementById("hide_txt").style.display = 'none';
 	                
-	                document.getElementById("caption").style.display = 'block';
-	                document.getElementById("show_txt").style.display = 'block';
+	                document.getElementById("caption").style.display = 'flex';
+	                document.getElementById("show_txt").style.display = 'flex';
 
 	                document.getElementById("spacer").style.paddingTop = "20px";
 	                document.getElementById("spacer").style.transition = "all .5s ease-in-out";
@@ -253,8 +253,8 @@
 	                  trigger: '.scrollTriggerLogo',
 	                  start: 'top+=200 top+=90',
 	                  end: '+=700',
-	                  scrub: true
-	                  //markers: true
+	                  scrub: true,
+	                  markers: true
 	                } 
 	            });
 
@@ -262,16 +262,16 @@
             
             // fade-in form-title txt
 
-	            gsap.to('.stay-updated', { autoAlpha: 1, 
-	                scrollTrigger: {
-	                  class: '.stay-updated',
-	                  trigger: '.hero',
-	                  start: 'top-=500 top+=90',
-	                  end: '+=300',
-	                  scrub: true
-	                  //markers: true
-	                } 
-	            });    
+	            /* gsap.to('.stay-updated', { autoAlpha: 1, 
+	                 scrollTrigger: {
+	                   class: '.stay-updated',
+	                   trigger: '.hero',
+	                   start: 'top-=500 top+=90',
+	                   end: '+=300',
+	                   scrub: true
+	                   //markers: true
+	                 } 
+	             });    */
 
             // @TODO:
             // Align 'stay updated' text to sit fixed on bottom scroll point but only fade-in bottom/left in sub-hero section
